@@ -17,7 +17,6 @@ let package = Package(
     ],
     dependencies: [
         .package(name: "GoogleAppMeasurement", url: "https://github.com/google/GoogleAppMeasurement.git", .upToNextMajor(from: "8.8.0"))
-        )
     ],
     targets: [
         .target(name: "GoogleMobileAdsTarget",
